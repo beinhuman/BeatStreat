@@ -1,0 +1,65 @@
+body{
+	margin: 0px;
+	font-family: Tahoma;
+	}
+#pageTop{
+	background:url(../../src_img/tbod.png) repeat-x;
+	height: 90px;
+		}
+#pageTop>#pageTopWrap {
+	width: 1000px;
+	margin: 0px auto;
+	height: 90px;
+}
+#pageTop> #pageTopWrap> #pageTopLogo {
+	float:left;
+	height: 90px ;
+	width: 108px;
+}
+#pageTop> #pageTopWrap> #pageTopRest {
+	float:left;
+	height: 90px ;
+	width:  892px;
+}
+#pageTop> #pageTopWrap> #pageTopRest > #menu1 {
+	height: 44px;
+}
+#pageTop> #pageTopWrap> #pageTopRest > #menu1> div> a {
+	color: #CCC;
+	text-decoration: none;
+	}
+#pageTop> #pageTopWrap> #pageTopRest > #menu2 {
+	height: 44px;
+}
+#pageTop> #pageTopWrap> #pageTopRest > #menu1 > div {
+	 padding: 4px;
+	 margin-top:8px;
+	 text-align: right;
+}
+#pageTop> #pageTopWrap> #pageTopRest > #menu2 > div {
+	 padding: 4px;
+	 margin-top:8px;
+}
+#pageTop> #pageTopWrap> #pageTopRest > #menu2 > div > a {
+	color: #FFF;
+	text-decoration: none;
+	display: block ;
+	float:left;
+	margin: 0px 16px;
+}
+#pageTop> #pageTopWrap> #pageTopRest > #menu1 > div > a:hover {
+	color: #C0E73D;	
+}
+#pageTop> #pageTopWrap> #pageTopRest > #menu2> div > a:hover {
+	color: #C0E73D;
+}
+#pageMiddle{
+	height:900px;
+}
+#pageBottom{
+	border: #C0E73D 1px dashed;
+	color: #CCC;
+	padding: 24px;
+	text-align: center;
+	background-color: #191919;
+}
